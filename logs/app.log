@@ -1,0 +1,837 @@
+2026-10-06 17:21:17 | INFO     | app.infrastructure.logging_config | 日志已初始化: level=INFO, file=D:\Mycode\langgraph-app\logs\app.log
+2026-10-06 17:24:32 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_vcnyvfm1 message_id=49b1452b-a4f3-460d-850e-8aacdaf491f7 session_id=None type=text
+2026-10-06 17:24:32 | INFO     | app.service.dialogue_service | 创建新对话状态 sender_id=u_vcnyvfm1 session_id=8532e4c6-d84b-4836-baf6-cfc30b1fb25a
+2026-10-06 17:24:35 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:24:35 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=True
+2026-10-06 17:24:35 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:24:37 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:24:37 | INFO     | app.agent.nodes.execute_chitchat_node | 闲聊轨道执行完成: 1 条消息
+2026-10-06 17:24:37 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:25:12 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_vcnyvfm1 message_id=35db24e5-36b1-42a8-84ba-6848b52c6955 session_id=8532e4c6-d84b-4836-baf6-cfc30b1fb25a type=text
+2026-10-06 17:25:12 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_vcnyvfm1 session_id=8532e4c6-d84b-4836-baf6-cfc30b1fb25a
+2026-10-06 17:25:26 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:25:26 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-06 17:25:26 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:25:26 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-06 17:25:26 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-06 17:25:32 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_vcnyvfm1 message_id=f36dd956-e7a9-44d2-a91e-592f3f6b9e9a session_id=8532e4c6-d84b-4836-baf6-cfc30b1fb25a type=text
+2026-10-06 17:25:32 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_vcnyvfm1 session_id=8532e4c6-d84b-4836-baf6-cfc30b1fb25a
+2026-10-06 17:25:38 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:25:38 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-06 17:25:38 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:25:38 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 1 条消息
+2026-10-06 17:25:38 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:25:49 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_vcnyvfm1 message_id=8029aba0-e29f-4dd7-869c-aea47a91b28c session_id=8532e4c6-d84b-4836-baf6-cfc30b1fb25a type=text
+2026-10-06 17:25:49 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_vcnyvfm1 session_id=8532e4c6-d84b-4836-baf6-cfc30b1fb25a
+2026-10-06 17:25:56 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:25:56 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-06 17:25:56 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:25:56 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 1 条消息
+2026-10-06 17:25:56 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:26:10 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_vcnyvfm1 message_id=9b1d9247-f1ad-49e4-9693-8bcece44cffa session_id=None type=text
+2026-10-06 17:26:10 | INFO     | app.service.dialogue_service | 创建新对话状态 sender_id=u_vcnyvfm1 session_id=0a2d9491-d635-4ac2-b5e5-a87821c9883e
+2026-10-06 17:26:13 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:26:13 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=True
+2026-10-06 17:26:13 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:26:17 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:26:17 | INFO     | app.agent.nodes.execute_chitchat_node | 闲聊轨道执行完成: 1 条消息
+2026-10-06 17:26:17 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:26:33 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_vcnyvfm1 message_id=f0167409-ba90-4118-8a20-ec2ab47dfe62 session_id=0a2d9491-d635-4ac2-b5e5-a87821c9883e type=text
+2026-10-06 17:26:33 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_vcnyvfm1 session_id=0a2d9491-d635-4ac2-b5e5-a87821c9883e
+2026-10-06 17:26:36 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:26:36 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=True
+2026-10-06 17:26:36 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:26:39 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:26:39 | INFO     | app.agent.nodes.execute_chitchat_node | 闲聊轨道执行完成: 1 条消息
+2026-10-06 17:26:39 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:26:55 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_vcnyvfm1 message_id=8094877b-3b79-4a8b-b098-b825c9ce21a8 session_id=0a2d9491-d635-4ac2-b5e5-a87821c9883e type=text
+2026-10-06 17:26:55 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_vcnyvfm1 session_id=0a2d9491-d635-4ac2-b5e5-a87821c9883e
+2026-10-06 17:26:58 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:26:58 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=True
+2026-10-06 17:26:58 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:27:03 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:27:03 | INFO     | app.agent.nodes.execute_chitchat_node | 闲聊轨道执行完成: 1 条消息
+2026-10-06 17:27:03 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:27:15 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_vcnyvfm1 message_id=31a6e184-7248-4e9c-9e41-4d135146c6d5 session_id=0a2d9491-d635-4ac2-b5e5-a87821c9883e type=text
+2026-10-06 17:27:15 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_vcnyvfm1 session_id=0a2d9491-d635-4ac2-b5e5-a87821c9883e
+2026-10-06 17:27:28 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:27:28 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=True
+2026-10-06 17:27:28 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:27:37 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:27:37 | INFO     | app.agent.nodes.execute_chitchat_node | 闲聊轨道执行完成: 1 条消息
+2026-10-06 17:27:37 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:28:19 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_vcnyvfm1 message_id=b9c731be-2743-4901-bfec-09c1a4702937 session_id=0a2d9491-d635-4ac2-b5e5-a87821c9883e type=text
+2026-10-06 17:28:19 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_vcnyvfm1 session_id=0a2d9491-d635-4ac2-b5e5-a87821c9883e
+2026-10-06 17:28:49 | WARNING  | app.infrastructure.llm_resilience | LLM 调用超时 (第 1/3 次)
+2026-10-06 17:29:05 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:29:05 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-06 17:29:05 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:29:05 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-06 17:29:05 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-06 17:47:05 | INFO     | app.infrastructure.logging_config | 日志已初始化: level=INFO, file=D:\Mycode\langgraph-app\logs\app.log
+2026-10-06 17:47:05 | INFO     | app.service.dialogue_service | 收到消息 sender_id=test_refactor message_id=19efd5dd-17f1-4a7f-bf8c-49a7a92e3803 session_id=None type=text
+2026-10-06 17:47:05 | INFO     | app.service.dialogue_service | 创建新对话状态 sender_id=test_refactor session_id=8335c165-f562-4f9b-a7b8-13f3f27c71eb
+2026-10-06 17:47:08 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:47:08 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=True
+2026-10-06 17:47:08 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:47:10 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:47:10 | INFO     | app.agent.nodes.execute_chitchat_node | 闲聊轨道执行完成: 1 条消息
+2026-10-06 17:47:10 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:47:10 | INFO     | httpx2 | HTTP Request: POST http://testserver/api/chat "HTTP/1.1 200 OK"
+2026-10-06 17:47:10 | INFO     | app.service.dialogue_service | 收到消息 sender_id=test_refactor message_id=e7331fcf-c333-4a4e-87f9-ff15eb310c29 session_id=8335c165-f562-4f9b-a7b8-13f3f27c71eb type=text
+2026-10-06 17:47:10 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=test_refactor session_id=8335c165-f562-4f9b-a7b8-13f3f27c71eb
+2026-10-06 17:47:15 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:47:15 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-06 17:47:15 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:47:15 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-06 17:47:15 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-06 17:47:15 | INFO     | httpx2 | HTTP Request: POST http://testserver/api/chat "HTTP/1.1 200 OK"
+2026-10-06 17:47:15 | INFO     | app.service.dialogue_service | 收到消息 sender_id=test_refactor message_id=e2b97060-a354-4fd5-b851-0bebfcf7fde3 session_id=8335c165-f562-4f9b-a7b8-13f3f27c71eb type=text
+2026-10-06 17:47:15 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=test_refactor session_id=8335c165-f562-4f9b-a7b8-13f3f27c71eb
+2026-10-06 17:47:21 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:47:21 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-06 17:47:21 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:47:26 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 1 条消息
+2026-10-06 17:47:26 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:47:26 | INFO     | httpx2 | HTTP Request: POST http://testserver/api/chat "HTTP/1.1 200 OK"
+2026-10-06 17:47:26 | INFO     | app.service.dialogue_service | 收到消息 sender_id=test_refactor message_id=527f1e95-e7f8-4e14-b0ef-c748ff54a8ee session_id=8335c165-f562-4f9b-a7b8-13f3f27c71eb type=text
+2026-10-06 17:47:26 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=test_refactor session_id=8335c165-f562-4f9b-a7b8-13f3f27c71eb
+2026-10-06 17:47:38 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:47:38 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-06 17:47:38 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:47:43 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-06 17:47:43 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-06 17:47:43 | INFO     | httpx2 | HTTP Request: POST http://testserver/api/chat "HTTP/1.1 200 OK"
+2026-10-06 17:47:43 | INFO     | app.service.dialogue_service | 收到消息 sender_id=test_refactor message_id=3089b69d-7270-4ea7-8d63-8861356f9296 session_id=None type=text
+2026-10-06 17:47:43 | INFO     | app.service.dialogue_service | 创建新对话状态 sender_id=test_refactor session_id=9654a0b7-3bd4-4554-bb8a-e3ab13d106fb
+2026-10-06 17:48:13 | WARNING  | app.infrastructure.llm_resilience | LLM 调用超时 (第 1/3 次)
+2026-10-06 17:48:24 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:48:24 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-06 17:48:24 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:48:24 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-06 17:48:24 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-06 17:48:24 | INFO     | httpx2 | HTTP Request: POST http://testserver/api/chat "HTTP/1.1 200 OK"
+2026-10-06 17:48:24 | INFO     | httpx2 | HTTP Request: GET http://testserver/api/sessions/8335c165-f562-4f9b-a7b8-13f3f27c71eb/messages?sender_id=test_refactor "HTTP/1.1 200 OK"
+2026-10-06 17:48:24 | INFO     | httpx2 | HTTP Request: GET http://testserver/api/sessions?sender_id=test_refactor "HTTP/1.1 200 OK"
+2026-10-06 17:48:24 | INFO     | httpx2 | HTTP Request: DELETE http://testserver/api/sessions/8335c165-f562-4f9b-a7b8-13f3f27c71eb?sender_id=test_refactor "HTTP/1.1 200 OK"
+2026-10-06 17:48:24 | INFO     | httpx2 | HTTP Request: DELETE http://testserver/api/sessions/9654a0b7-3bd4-4554-bb8a-e3ab13d106fb?sender_id=test_refactor "HTTP/1.1 200 OK"
+2026-10-06 17:49:29 | INFO     | app.infrastructure.logging_config | 日志已初始化: level=INFO, file=D:\Mycode\langgraph-app\logs\app.log
+2026-10-06 17:49:30 | INFO     | httpx2 | HTTP Request: GET http://testserver/openapi.json "HTTP/1.1 200 OK"
+2026-10-06 17:49:30 | INFO     | httpx2 | HTTP Request: GET http://testserver/api/sessions?sender_id=u_vcnyvfm1 "HTTP/1.1 200 OK"
+2026-10-06 17:51:26 | INFO     | app.infrastructure.logging_config | 日志已初始化: level=INFO, file=D:\Mycode\langgraph-app\logs\app.log
+2026-10-06 17:53:21 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_tsj1o8l6 message_id=ad3a53a4-3b6f-4dbe-bee1-e05596d58fe3 session_id=None type=text
+2026-10-06 17:53:21 | INFO     | app.service.dialogue_service | 创建新对话状态 sender_id=u_tsj1o8l6 session_id=f4380570-951f-465f-92b2-6aa8c7dca739
+2026-10-06 17:53:24 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:53:24 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=True
+2026-10-06 17:53:24 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:53:26 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:53:26 | INFO     | app.agent.nodes.execute_chitchat_node | 闲聊轨道执行完成: 1 条消息
+2026-10-06 17:53:26 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:53:45 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_tsj1o8l6 message_id=220d1f6a-16e7-4a61-8e92-a11b8b37bbbc session_id=f4380570-951f-465f-92b2-6aa8c7dca739 type=text
+2026-10-06 17:53:45 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_tsj1o8l6 session_id=f4380570-951f-465f-92b2-6aa8c7dca739
+2026-10-06 17:54:01 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:54:01 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-06 17:54:01 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:54:01 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-06 17:54:01 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-06 17:54:28 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_tsj1o8l6 message_id=9d4508d8-6d21-478c-8453-9f284ed93138 session_id=f4380570-951f-465f-92b2-6aa8c7dca739 type=text
+2026-10-06 17:54:28 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_tsj1o8l6 session_id=f4380570-951f-465f-92b2-6aa8c7dca739
+2026-10-06 17:54:34 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:54:34 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-06 17:54:34 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:54:34 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 1 条消息
+2026-10-06 17:54:34 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:55:05 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_tsj1o8l6 message_id=0cfe9262-9d2d-4477-9bac-faf28c7dd8a5 session_id=f4380570-951f-465f-92b2-6aa8c7dca739 type=text
+2026-10-06 17:55:05 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_tsj1o8l6 session_id=f4380570-951f-465f-92b2-6aa8c7dca739
+2026-10-06 17:55:16 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:55:16 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-06 17:55:16 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:55:16 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 1 条消息
+2026-10-06 17:55:16 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:55:24 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_tsj1o8l6 message_id=4ce99b39-1c3a-4ae3-94b2-b561b0952426 session_id=f4380570-951f-465f-92b2-6aa8c7dca739 type=text
+2026-10-06 17:55:24 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_tsj1o8l6 session_id=f4380570-951f-465f-92b2-6aa8c7dca739
+2026-10-06 17:55:27 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:55:27 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=True
+2026-10-06 17:55:27 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:55:32 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:55:32 | INFO     | app.agent.nodes.execute_chitchat_node | 闲聊轨道执行完成: 1 条消息
+2026-10-06 17:55:32 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:55:42 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_tsj1o8l6 message_id=c29b9d7c-d102-4a6b-88b3-3fc25b64213e session_id=f4380570-951f-465f-92b2-6aa8c7dca739 type=text
+2026-10-06 17:55:42 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_tsj1o8l6 session_id=f4380570-951f-465f-92b2-6aa8c7dca739
+2026-10-06 17:55:44 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:55:44 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=True
+2026-10-06 17:55:44 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:55:48 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:55:48 | INFO     | app.agent.nodes.execute_chitchat_node | 闲聊轨道执行完成: 1 条消息
+2026-10-06 17:55:48 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:56:00 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_tsj1o8l6 message_id=576223cc-3afb-49a5-9643-d9fd7e96232e session_id=f4380570-951f-465f-92b2-6aa8c7dca739 type=text
+2026-10-06 17:56:00 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_tsj1o8l6 session_id=f4380570-951f-465f-92b2-6aa8c7dca739
+2026-10-06 17:56:05 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:56:05 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-06 17:56:05 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:56:05 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-06 17:56:05 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-06 17:56:18 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_tsj1o8l6 message_id=d5c622ce-d490-48d0-a032-0f7b6123524d session_id=f4380570-951f-465f-92b2-6aa8c7dca739 type=text
+2026-10-06 17:56:18 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_tsj1o8l6 session_id=f4380570-951f-465f-92b2-6aa8c7dca739
+2026-10-06 17:56:48 | WARNING  | app.infrastructure.llm_resilience | LLM 调用超时 (第 1/3 次)
+2026-10-06 17:57:17 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:57:17 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=True
+2026-10-06 17:57:17 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=False reason=ClarifyReason.MULTIPLE_TRACKS
+2026-10-06 17:57:26 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:57:26 | INFO     | app.agent.nodes.execute_clarify_node | 澄清轨道执行完成: reason=ClarifyReason.MULTIPLE_TRACKS
+2026-10-06 17:57:26 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:58:01 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_tsj1o8l6 message_id=02c62d57-343f-4ce9-b2a3-1316c7cd8531 session_id=f4380570-951f-465f-92b2-6aa8c7dca739 type=text
+2026-10-06 17:58:01 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_tsj1o8l6 session_id=f4380570-951f-465f-92b2-6aa8c7dca739
+2026-10-06 17:58:10 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:58:10 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-06 17:58:10 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:58:10 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 1 条消息
+2026-10-06 17:58:10 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:59:22 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_tsj1o8l6 message_id=18e388a8-3b63-4ad6-b62c-f804929ced2f session_id=None type=text
+2026-10-06 17:59:22 | INFO     | app.service.dialogue_service | 创建新对话状态 sender_id=u_tsj1o8l6 session_id=79aa1e6d-fb6c-4a67-894d-0d40a71d2894
+2026-10-06 17:59:25 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:59:25 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=True
+2026-10-06 17:59:25 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:59:29 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:59:29 | INFO     | app.agent.nodes.execute_chitchat_node | 闲聊轨道执行完成: 1 条消息
+2026-10-06 17:59:29 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:59:33 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_tsj1o8l6 message_id=67c8d239-ee9e-4dbe-a130-b2bf59eb1487 session_id=79aa1e6d-fb6c-4a67-894d-0d40a71d2894 type=text
+2026-10-06 17:59:33 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_tsj1o8l6 session_id=79aa1e6d-fb6c-4a67-894d-0d40a71d2894
+2026-10-06 17:59:36 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:59:36 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=True
+2026-10-06 17:59:36 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 17:59:39 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 17:59:39 | INFO     | app.agent.nodes.execute_chitchat_node | 闲聊轨道执行完成: 1 条消息
+2026-10-06 17:59:39 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 17:59:49 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_tsj1o8l6 message_id=3dc478fa-fab4-451a-b48d-f32b8d1f0dba session_id=79aa1e6d-fb6c-4a67-894d-0d40a71d2894 type=text
+2026-10-06 17:59:49 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_tsj1o8l6 session_id=79aa1e6d-fb6c-4a67-894d-0d40a71d2894
+2026-10-06 18:00:10 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 18:00:10 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=True
+2026-10-06 18:00:10 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 18:00:17 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 18:00:17 | INFO     | app.agent.nodes.execute_chitchat_node | 闲聊轨道执行完成: 1 条消息
+2026-10-06 18:00:17 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-06 18:00:35 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_tsj1o8l6 message_id=467001f8-fa18-4854-92b3-395fff8a420b session_id=79aa1e6d-fb6c-4a67-894d-0d40a71d2894 type=text
+2026-10-06 18:00:35 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_tsj1o8l6 session_id=79aa1e6d-fb6c-4a67-894d-0d40a71d2894
+2026-10-06 18:00:38 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 18:00:38 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=True
+2026-10-06 18:00:38 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-06 18:00:43 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-06 18:00:43 | INFO     | app.agent.nodes.execute_chitchat_node | 闲聊轨道执行完成: 1 条消息
+2026-10-06 18:00:43 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 13:56:09 | INFO     | app.infrastructure.logging_config | 日志已初始化: level=INFO, file=D:\Mycode\langgraph-app\logs\app.log
+2026-10-10 13:56:11 | WARNING  | app.infrastructure.vector_store | Qdrant 服务不可达(Unexpected Response: 502 (Bad Gateway)
+Raw response content:
+b'')，回退本地持久化模式: D:\Mycode\langgraph-app\data\qdrant
+2026-10-10 13:56:11 | INFO     | app.infrastructure.vector_store | 创建向量集合 faq_kb (dim=1024)
+2026-10-10 13:56:11 | WARNING  | app.knowledge.seed | 知识库种子数据写入失败（知识检索将降级）: embedding 服务调用失败: 'NoneType' object has no attribute 'post'
+2026-10-10 13:58:11 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_87dd53 message_id=d8b24532-73d0-4036-8adf-fc4b6683f8da session_id=None type=text
+2026-10-10 13:58:11 | INFO     | app.service.dialogue_service | 创建新对话状态 sender_id=e2e_flows_87dd53 session_id=043a6e4c-5c8f-42e4-b9d5-afda8b1b1d33
+2026-10-10 13:58:22 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 13:58:22 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 13:58:22 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 13:58:22 | WARNING  | app.infrastructure.commerce | 查询订单失败 order=SO20261001001 err='NoneType' object has no attribute 'get'
+2026-10-10 13:58:22 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 13:58:22 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 13:58:22 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_87dd53 message_id=a2c451cb-a95c-4b4c-98be-064c00459583 session_id=043a6e4c-5c8f-42e4-b9d5-afda8b1b1d33 type=text
+2026-10-10 13:58:22 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_87dd53 session_id=043a6e4c-5c8f-42e4-b9d5-afda8b1b1d33
+2026-10-10 13:58:34 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 13:58:34 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 13:58:34 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 13:58:34 | WARNING  | app.infrastructure.commerce | 查询物流失败 order=SO20261001001 err='NoneType' object has no attribute 'get'
+2026-10-10 13:58:34 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 13:58:34 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 13:58:34 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_87dd53 message_id=70d96c60-c198-487c-9c9e-69f9d74bf53a session_id=043a6e4c-5c8f-42e4-b9d5-afda8b1b1d33 type=text
+2026-10-10 13:58:34 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_87dd53 session_id=043a6e4c-5c8f-42e4-b9d5-afda8b1b1d33
+2026-10-10 13:58:40 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 13:58:40 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 13:58:40 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 13:58:40 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 13:58:40 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 13:58:40 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_87dd53 message_id=96ac4471-8beb-475d-892e-c51c8b2fb6b1 session_id=043a6e4c-5c8f-42e4-b9d5-afda8b1b1d33 type=text
+2026-10-10 13:58:40 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_87dd53 session_id=043a6e4c-5c8f-42e4-b9d5-afda8b1b1d33
+2026-10-10 13:58:55 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 13:58:55 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 13:58:55 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 13:58:55 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 1 条消息
+2026-10-10 13:58:55 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 13:58:55 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_87dd53 message_id=b1e129cc-e9a2-4eda-9322-6e72709de2c7 session_id=043a6e4c-5c8f-42e4-b9d5-afda8b1b1d33 type=text
+2026-10-10 13:58:55 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_87dd53 session_id=043a6e4c-5c8f-42e4-b9d5-afda8b1b1d33
+2026-10-10 13:59:03 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 13:59:03 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 13:59:03 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 13:59:03 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 1 条消息
+2026-10-10 13:59:03 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 13:59:03 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_87dd53 message_id=3cdedae1-6292-4ca2-8f65-21cffe02cf80 session_id=043a6e4c-5c8f-42e4-b9d5-afda8b1b1d33 type=text
+2026-10-10 13:59:03 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_87dd53 session_id=043a6e4c-5c8f-42e4-b9d5-afda8b1b1d33
+2026-10-10 13:59:14 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 13:59:14 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 13:59:14 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 13:59:14 | WARNING  | app.infrastructure.commerce | 查询商品失败 product=P1001 err='NoneType' object has no attribute 'get'
+2026-10-10 13:59:14 | WARNING  | app.infrastructure.commerce | 查询相似商品失败 product=P1001 err='NoneType' object has no attribute 'get'
+2026-10-10 13:59:14 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 13:59:14 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 13:59:15 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_87dd53 message_id=713788b3-940f-4d0a-8ba5-7768bca90a8a session_id=043a6e4c-5c8f-42e4-b9d5-afda8b1b1d33 type=text
+2026-10-10 13:59:15 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_87dd53 session_id=043a6e4c-5c8f-42e4-b9d5-afda8b1b1d33
+2026-10-10 13:59:20 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 13:59:20 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 13:59:20 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 13:59:20 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 13:59:20 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 13:59:20 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_87dd53 message_id=4ffd324a-1b49-4d93-8c25-6452f4a7581b session_id=kb1 type=text
+2026-10-10 13:59:20 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_87dd53 session_id=kb1
+2026-10-10 13:59:26 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 13:59:26 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 13:59:26 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 13:59:26 | WARNING  | app.knowledge.provider | 向量检索失败 collection=faq_kb err=embedding 服务调用失败: 'NoneType' object has no attribute 'post'
+2026-10-10 13:59:26 | WARNING  | app.knowledge.provider | 向量检索失败 collection=rag_kb err=embedding 服务调用失败: 'NoneType' object has no attribute 'post'
+2026-10-10 13:59:36 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 13:59:36 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 13:59:36 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 13:59:36 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_87dd53 message_id=42dce493-9430-41cd-9a9f-464fee7a2ff3 session_id=kb2 type=text
+2026-10-10 13:59:36 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_87dd53 session_id=kb2
+2026-10-10 13:59:43 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 13:59:43 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 13:59:43 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 13:59:43 | WARNING  | app.knowledge.provider | 向量检索失败 collection=faq_kb err=embedding 服务调用失败: 'NoneType' object has no attribute 'post'
+2026-10-10 13:59:43 | WARNING  | app.knowledge.provider | 向量检索失败 collection=rag_kb err=embedding 服务调用失败: 'NoneType' object has no attribute 'post'
+2026-10-10 13:59:53 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 13:59:53 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 13:59:53 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 13:59:53 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_87dd53 message_id=9b2dbaeb-bdcb-47c8-aa0d-2e739ee91370 session_id=kb3 type=text
+2026-10-10 13:59:53 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_87dd53 session_id=kb3
+2026-10-10 13:59:59 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 13:59:59 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 13:59:59 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 13:59:59 | WARNING  | app.knowledge.provider | 向量检索失败 collection=faq_kb err=embedding 服务调用失败: 'NoneType' object has no attribute 'post'
+2026-10-10 13:59:59 | WARNING  | app.knowledge.provider | 向量检索失败 collection=rag_kb err=embedding 服务调用失败: 'NoneType' object has no attribute 'post'
+2026-10-10 14:00:06 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:00:06 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:00:06 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:00:06 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_87dd53 message_id=f1972013-53d6-4179-9452-6d9d0c265f36 session_id=kb4 type=text
+2026-10-10 14:00:06 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_87dd53 session_id=kb4
+2026-10-10 14:00:12 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:00:12 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:00:12 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:00:26 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:00:26 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:00:26 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:00:27 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_87dd53 message_id=aed403d3-06c6-4b6d-97e1-7b1f8b5e8af7 session_id=kb5 type=text
+2026-10-10 14:00:27 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_87dd53 session_id=kb5
+2026-10-10 14:00:32 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:00:32 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:00:32 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:00:32 | WARNING  | app.infrastructure.commerce | 查询商品失败 product=P1004 err='NoneType' object has no attribute 'get'
+2026-10-10 14:00:38 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:00:38 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:00:38 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:00:38 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_87dd53 message_id=75cafd05-37c3-4505-a7ac-a7f5c9018e34 session_id=kb6 type=text
+2026-10-10 14:00:38 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_87dd53 session_id=kb6
+2026-10-10 14:00:41 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:00:41 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=True
+2026-10-10 14:00:41 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:00:50 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:00:50 | INFO     | app.agent.nodes.execute_chitchat_node | 闲聊轨道执行完成: 1 条消息
+2026-10-10 14:00:50 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:04:51 | INFO     | app.infrastructure.logging_config | 日志已初始化: level=INFO, file=D:\Mycode\langgraph-app\logs\app.log
+2026-10-10 14:04:53 | WARNING  | app.infrastructure.vector_store | Qdrant 服务不可达(Unexpected Response: 502 (Bad Gateway)
+Raw response content:
+b'')，回退本地持久化模式: D:\Mycode\langgraph-app\data\qdrant
+2026-10-10 14:04:53 | INFO     | app.knowledge.seed | 集合 faq_kb 写入 10 条种子数据
+2026-10-10 14:04:53 | INFO     | app.infrastructure.vector_store | 创建向量集合 rag_kb (dim=1024)
+2026-10-10 14:04:54 | INFO     | app.knowledge.seed | 集合 rag_kb 写入 8 条种子数据
+2026-10-10 14:05:11 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_006f5f message_id=78c6f1ca-f9f1-4c73-a560-7252fa033e64 session_id=None type=text
+2026-10-10 14:05:11 | INFO     | app.service.dialogue_service | 创建新对话状态 sender_id=e2e_flows_006f5f session_id=abc35a52-1273-43e7-b83e-394c583d7bf0
+2026-10-10 14:05:22 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:05:22 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:05:22 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:05:22 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 14:05:22 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 14:05:32 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_5c6139 message_id=197a8576-2971-45f3-babd-1c6224959ad1 session_id=None type=text
+2026-10-10 14:05:32 | INFO     | app.service.dialogue_service | 创建新对话状态 sender_id=e2e_flows_5c6139 session_id=345d99c9-3c80-4f61-809e-2f63bdc5d737
+2026-10-10 14:05:45 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:05:45 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:05:45 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:05:45 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 14:05:45 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 14:05:45 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_5c6139 message_id=0a3bc5b2-8256-46b4-8553-867cb094ad39 session_id=345d99c9-3c80-4f61-809e-2f63bdc5d737 type=text
+2026-10-10 14:05:45 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_5c6139 session_id=345d99c9-3c80-4f61-809e-2f63bdc5d737
+2026-10-10 14:05:56 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:05:56 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:05:56 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:05:56 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 14:05:56 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 14:05:56 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_5c6139 message_id=fe90b59f-07d5-4c92-8ac0-851a61e97f58 session_id=345d99c9-3c80-4f61-809e-2f63bdc5d737 type=text
+2026-10-10 14:05:56 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_5c6139 session_id=345d99c9-3c80-4f61-809e-2f63bdc5d737
+2026-10-10 14:06:14 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:06:14 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:06:14 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:06:14 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 14:06:14 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 14:06:14 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_5c6139 message_id=256a3464-15c7-442f-b693-233eae432a82 session_id=345d99c9-3c80-4f61-809e-2f63bdc5d737 type=text
+2026-10-10 14:06:14 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_5c6139 session_id=345d99c9-3c80-4f61-809e-2f63bdc5d737
+2026-10-10 14:06:30 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:06:30 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:06:30 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:06:30 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 1 条消息
+2026-10-10 14:06:30 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:06:31 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_5c6139 message_id=6134582b-413b-4e9e-8890-d599e5cc504a session_id=345d99c9-3c80-4f61-809e-2f63bdc5d737 type=text
+2026-10-10 14:06:31 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_5c6139 session_id=345d99c9-3c80-4f61-809e-2f63bdc5d737
+2026-10-10 14:06:39 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:06:39 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:06:39 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:06:39 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 1 条消息
+2026-10-10 14:06:39 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:06:39 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_5c6139 message_id=c0876fd3-c80c-4a69-9c7c-2ef675598e2a session_id=345d99c9-3c80-4f61-809e-2f63bdc5d737 type=text
+2026-10-10 14:06:39 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_5c6139 session_id=345d99c9-3c80-4f61-809e-2f63bdc5d737
+2026-10-10 14:06:49 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:06:49 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:06:49 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:06:49 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 14:06:49 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 14:06:49 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_5c6139 message_id=909bbeb7-bb8f-4887-a0ea-36dd837150ba session_id=345d99c9-3c80-4f61-809e-2f63bdc5d737 type=text
+2026-10-10 14:06:49 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_5c6139 session_id=345d99c9-3c80-4f61-809e-2f63bdc5d737
+2026-10-10 14:06:55 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:06:55 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:06:55 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:06:55 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 14:06:55 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 14:06:55 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_5c6139 message_id=e218f342-8783-433c-9782-34f40e9e3d82 session_id=kb1 type=text
+2026-10-10 14:06:55 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_5c6139 session_id=kb1
+2026-10-10 14:07:02 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:07:02 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:07:02 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:07:08 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:07:08 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:07:08 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:07:08 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_5c6139 message_id=6edd01a7-4036-48b2-bb83-10cf51ced160 session_id=kb2 type=text
+2026-10-10 14:07:08 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_5c6139 session_id=kb2
+2026-10-10 14:07:14 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:07:14 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:07:14 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:07:20 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:07:20 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:07:20 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:07:20 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_5c6139 message_id=7def13a0-e224-4509-9b0d-5d54b8f15e87 session_id=kb3 type=text
+2026-10-10 14:07:20 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_5c6139 session_id=kb3
+2026-10-10 14:07:26 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:07:26 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:07:26 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:07:32 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:07:32 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:07:32 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:07:32 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_5c6139 message_id=41287c37-ec85-4db5-bdb3-2e3c08ba8d1e session_id=kb4 type=text
+2026-10-10 14:07:32 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_5c6139 session_id=kb4
+2026-10-10 14:07:38 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:07:38 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:07:38 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:07:47 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:07:47 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:07:47 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:07:47 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_5c6139 message_id=39f6454f-d504-4320-9106-318c962a6006 session_id=kb5 type=text
+2026-10-10 14:07:47 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_5c6139 session_id=kb5
+2026-10-10 14:07:52 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:07:52 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:07:52 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:07:57 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:07:57 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:07:57 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:07:57 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_5c6139 message_id=47a5a3c1-b11a-4a0e-8ee9-e85ff63a7a1a session_id=kb6 type=text
+2026-10-10 14:07:57 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_5c6139 session_id=kb6
+2026-10-10 14:08:00 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:08:00 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=True
+2026-10-10 14:08:00 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:08:02 | INFO     | app.service.dialogue_service | 收到消息 sender_id=verify_quick_1 message_id=28f21cc1-cf51-40d3-acdf-0e7dee6cea0e session_id=s_verify_1 type=object
+2026-10-10 14:08:02 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=verify_quick_1 session_id=s_verify_1
+2026-10-10 14:08:05 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:08:05 | INFO     | app.agent.nodes.execute_chitchat_node | 闲聊轨道执行完成: 1 条消息
+2026-10-10 14:08:05 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:08:10 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:08:10 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=False
+2026-10-10 14:08:10 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=False reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:08:14 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:08:14 | INFO     | app.agent.nodes.execute_clarify_node | 澄清轨道执行完成: reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:08:14 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:10:36 | INFO     | app.infrastructure.logging_config | 日志已初始化: level=INFO, file=D:\Mycode\langgraph-app\logs\app.log
+2026-10-10 14:10:38 | WARNING  | app.infrastructure.vector_store | Qdrant 服务不可达(Unexpected Response: 502 (Bad Gateway)
+Raw response content:
+b'')，回退本地持久化模式: D:\Mycode\langgraph-app\data\qdrant
+2026-10-10 14:10:38 | INFO     | app.knowledge.seed | 集合 faq_kb 已有 10 条数据，跳过种子写入
+2026-10-10 14:10:38 | INFO     | app.knowledge.seed | 集合 rag_kb 已有 8 条数据，跳过种子写入
+2026-10-10 14:10:42 | INFO     | app.service.dialogue_service | 收到消息 sender_id=verify_k8 message_id=221905c0-f098-4cc3-8ba0-a4d5fd70cebb session_id=s8 type=object
+2026-10-10 14:10:42 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=verify_k8 session_id=s8
+2026-10-10 14:10:48 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:10:48 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=False
+2026-10-10 14:10:48 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=False reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:10:53 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:10:53 | INFO     | app.agent.nodes.execute_clarify_node | 澄清轨道执行完成: reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:10:53 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:10:53 | INFO     | app.service.dialogue_service | 收到消息 sender_id=verify_k9 message_id=6bb2a97d-e3d2-471a-92ec-72c0b1d2522d session_id=s9 type=object
+2026-10-10 14:10:53 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=verify_k9 session_id=s9
+2026-10-10 14:10:59 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:10:59 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=False
+2026-10-10 14:10:59 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=False reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:11:03 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:11:03 | INFO     | app.agent.nodes.execute_clarify_node | 澄清轨道执行完成: reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:11:03 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:12:15 | INFO     | app.service.dialogue_service | 收到消息 sender_id=vk8_1 message_id=6e36153e-b2ee-4301-9191-aa4555c3bcc8 session_id=s8_1 type=object
+2026-10-10 14:12:15 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=vk8_1 session_id=s8_1
+2026-10-10 14:12:25 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:12:25 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=False
+2026-10-10 14:12:25 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=False reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:12:30 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:12:30 | INFO     | app.agent.nodes.execute_clarify_node | 澄清轨道执行完成: reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:12:30 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:12:30 | INFO     | app.service.dialogue_service | 收到消息 sender_id=vk9_1 message_id=6847d20c-99bb-43cc-972b-d5ede62101ce session_id=s9_1 type=object
+2026-10-10 14:12:30 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=vk9_1 session_id=s9_1
+2026-10-10 14:12:38 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:12:38 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=False
+2026-10-10 14:12:38 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=False reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:12:42 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:12:42 | INFO     | app.agent.nodes.execute_clarify_node | 澄清轨道执行完成: reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:12:42 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:12:42 | INFO     | app.service.dialogue_service | 收到消息 sender_id=vk8_2 message_id=32a0c667-8dc1-4913-bea7-aefe6a5ba645 session_id=s8_2 type=object
+2026-10-10 14:12:42 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=vk8_2 session_id=s8_2
+2026-10-10 14:12:48 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:12:48 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=False
+2026-10-10 14:12:48 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=False reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:12:53 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:12:53 | INFO     | app.agent.nodes.execute_clarify_node | 澄清轨道执行完成: reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:12:53 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:12:53 | INFO     | app.service.dialogue_service | 收到消息 sender_id=vk9_2 message_id=74cde32e-9780-4ec2-adb5-eb89141a8ea1 session_id=s9_2 type=object
+2026-10-10 14:12:53 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=vk9_2 session_id=s9_2
+2026-10-10 14:13:00 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:13:00 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=False
+2026-10-10 14:13:00 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=False reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:13:05 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:13:05 | INFO     | app.agent.nodes.execute_clarify_node | 澄清轨道执行完成: reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:13:05 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:13:05 | INFO     | app.service.dialogue_service | 收到消息 sender_id=vk8_3 message_id=64f14122-c737-43ba-8f42-51dfe603a32f session_id=s8_3 type=object
+2026-10-10 14:13:05 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=vk8_3 session_id=s8_3
+2026-10-10 14:13:20 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:13:20 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=False
+2026-10-10 14:13:20 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=False reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:13:26 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:13:26 | INFO     | app.agent.nodes.execute_clarify_node | 澄清轨道执行完成: reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:13:26 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:13:26 | INFO     | app.service.dialogue_service | 收到消息 sender_id=vk9_3 message_id=0e76d1a4-e261-4c01-bbe2-62b06febc30b session_id=s9_3 type=object
+2026-10-10 14:13:26 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=vk9_3 session_id=s9_3
+2026-10-10 14:13:33 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:13:33 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=False
+2026-10-10 14:13:33 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=False reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:13:40 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:13:40 | INFO     | app.agent.nodes.execute_clarify_node | 澄清轨道执行完成: reason=ClarifyReason.MISSING_TRACK
+2026-10-10 14:13:40 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:14:20 | INFO     | app.service.dialogue_service | 收到消息 sender_id=vk8x message_id=dee8179a-8f91-488d-a2d8-f4a64fe74f68 session_id=None type=text
+2026-10-10 14:14:20 | INFO     | app.service.dialogue_service | 创建新对话状态 sender_id=vk8x session_id=c2ea1ddf-558f-4efc-a7f0-521db76fa851
+2026-10-10 14:14:26 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:14:26 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:14:26 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:14:26 | INFO     | app.knowledge.handler | 知识意图=['shipping_policy'] -> provider_ids=['faq.default', 'rag.default']
+2026-10-10 14:14:26 | INFO     | app.knowledge.provider | 向量检索 collection=faq_kb query='满多少钱包邮？偏远地区呢？' 命中=0 scores=[]
+2026-10-10 14:14:26 | INFO     | app.knowledge.handler | provider=faq.default 检索到 1 个片段
+2026-10-10 14:14:26 | INFO     | app.knowledge.provider | 向量检索 collection=rag_kb query='满多少钱包邮？偏远地区呢？' 命中=0 scores=[]
+2026-10-10 14:14:26 | INFO     | app.knowledge.handler | provider=rag.default 检索到 1 个片段
+2026-10-10 14:14:34 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:14:34 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:14:34 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:14:34 | INFO     | app.service.dialogue_service | 收到消息 sender_id=vk9x message_id=dcc86a35-55c5-4cb8-aa8f-7ef07a64eab2 session_id=None type=text
+2026-10-10 14:14:34 | INFO     | app.service.dialogue_service | 创建新对话状态 sender_id=vk9x session_id=48864ba9-d3f7-4b62-8019-79859f453b36
+2026-10-10 14:14:41 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:14:41 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:14:41 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:14:41 | INFO     | app.knowledge.handler | 知识意图=['order_info'] -> provider_ids=['api.order']
+2026-10-10 14:14:41 | INFO     | app.knowledge.handler | provider=api.order 检索到 1 个片段
+2026-10-10 14:14:49 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:14:49 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:14:49 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:20:17 | INFO     | app.infrastructure.logging_config | 日志已初始化: level=INFO, file=D:\Mycode\langgraph-app\logs\app.log
+2026-10-10 14:20:19 | WARNING  | app.infrastructure.vector_store | Qdrant 服务不可达(Unexpected Response: 502 (Bad Gateway)
+Raw response content:
+b'')，回退本地持久化模式: D:\Mycode\langgraph-app\data\qdrant
+2026-10-10 14:20:19 | INFO     | app.knowledge.seed | 集合 faq_kb 已有 10 条数据，跳过种子写入
+2026-10-10 14:20:19 | INFO     | app.knowledge.seed | 集合 rag_kb 已有 8 条数据，跳过种子写入
+2026-10-10 14:20:36 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_3ce1ea message_id=eaa8b842-2f67-4275-92ac-9772f7809e7d session_id=None type=text
+2026-10-10 14:20:36 | INFO     | app.service.dialogue_service | 创建新对话状态 sender_id=e2e_flows_3ce1ea session_id=ec7e4e6f-d002-4c0a-b160-9cf715ecdc07
+2026-10-10 14:20:52 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:20:52 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:20:52 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:20:52 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 14:20:52 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 14:20:52 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_3ce1ea message_id=98e607a1-348b-4f92-9d4b-c9246a2c2522 session_id=ec7e4e6f-d002-4c0a-b160-9cf715ecdc07 type=text
+2026-10-10 14:20:52 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_3ce1ea session_id=ec7e4e6f-d002-4c0a-b160-9cf715ecdc07
+2026-10-10 14:21:06 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:21:06 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:21:06 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:21:06 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 14:21:06 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 14:21:06 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_3ce1ea message_id=2ddc8cb7-96bc-435a-8f15-071afa6b827d session_id=ec7e4e6f-d002-4c0a-b160-9cf715ecdc07 type=text
+2026-10-10 14:21:06 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_3ce1ea session_id=ec7e4e6f-d002-4c0a-b160-9cf715ecdc07
+2026-10-10 14:21:24 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:21:25 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:21:25 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:21:25 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 14:21:25 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 14:21:25 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_3ce1ea message_id=65d1fe12-89aa-4a63-bd17-d03c1654c162 session_id=ec7e4e6f-d002-4c0a-b160-9cf715ecdc07 type=text
+2026-10-10 14:21:25 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_3ce1ea session_id=ec7e4e6f-d002-4c0a-b160-9cf715ecdc07
+2026-10-10 14:21:49 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:21:49 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:21:49 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:21:49 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 1 条消息
+2026-10-10 14:21:49 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:21:49 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_3ce1ea message_id=dbfbcecb-b0da-493f-946a-55751655abc7 session_id=ec7e4e6f-d002-4c0a-b160-9cf715ecdc07 type=text
+2026-10-10 14:21:49 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_3ce1ea session_id=ec7e4e6f-d002-4c0a-b160-9cf715ecdc07
+2026-10-10 14:22:07 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:22:07 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:22:07 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:22:07 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 1 条消息
+2026-10-10 14:22:07 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:22:07 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_3ce1ea message_id=3254732e-0e09-454d-b111-55f72cc7cc51 session_id=ec7e4e6f-d002-4c0a-b160-9cf715ecdc07 type=text
+2026-10-10 14:22:07 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_3ce1ea session_id=ec7e4e6f-d002-4c0a-b160-9cf715ecdc07
+2026-10-10 14:22:18 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:22:18 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:22:18 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:22:18 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 14:22:18 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 14:22:18 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_3ce1ea message_id=7e5b8ba8-1812-42c9-ad30-ff263f8db465 session_id=ec7e4e6f-d002-4c0a-b160-9cf715ecdc07 type=text
+2026-10-10 14:22:18 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_3ce1ea session_id=ec7e4e6f-d002-4c0a-b160-9cf715ecdc07
+2026-10-10 14:22:28 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:22:28 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:22:28 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:22:28 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 14:22:28 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 14:22:28 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_3ce1ea message_id=795ff4c7-bb8c-4844-9ac1-e85ee81861a3 session_id=kb1 type=text
+2026-10-10 14:22:28 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_3ce1ea session_id=kb1
+2026-10-10 14:22:33 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:22:33 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:22:33 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:22:33 | INFO     | app.knowledge.handler | 知识意图=['refund_policy'] -> provider_ids=['faq.default', 'rag.default']
+2026-10-10 14:22:33 | INFO     | app.knowledge.provider | 向量检索 collection=faq_kb query='退款申请通过后多久能到账？' 命中=2 scores=[0.5339, 0.1766]
+2026-10-10 14:22:33 | INFO     | app.knowledge.handler | provider=faq.default 检索到 2 个片段
+2026-10-10 14:22:33 | INFO     | app.knowledge.provider | 向量检索 collection=rag_kb query='退款申请通过后多久能到账？' 命中=1 scores=[0.1543]
+2026-10-10 14:22:33 | INFO     | app.knowledge.handler | provider=rag.default 检索到 1 个片段
+2026-10-10 14:23:03 | WARNING  | app.infrastructure.llm_resilience | LLM 调用超时 (第 1/3 次)
+2026-10-10 14:23:34 | WARNING  | app.infrastructure.llm_resilience | LLM 调用超时 (第 2/3 次)
+2026-10-10 14:23:41 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:23:41 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:23:41 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:23:41 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_3ce1ea message_id=44034ae6-b5d6-49ef-8001-6d8f93a88bcb session_id=kb2 type=text
+2026-10-10 14:23:41 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_3ce1ea session_id=kb2
+2026-10-10 14:23:48 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:23:48 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:23:48 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:23:48 | INFO     | app.knowledge.handler | 知识意图=['return_policy'] -> provider_ids=['faq.default', 'rag.default']
+2026-10-10 14:23:48 | INFO     | app.knowledge.provider | 向量检索 collection=faq_kb query='七天无理由退货需要满足什么条件？' 命中=2 scores=[0.5522, 0.2507]
+2026-10-10 14:23:48 | INFO     | app.knowledge.handler | provider=faq.default 检索到 2 个片段
+2026-10-10 14:23:48 | INFO     | app.knowledge.provider | 向量检索 collection=rag_kb query='七天无理由退货需要满足什么条件？' 命中=1 scores=[0.1702]
+2026-10-10 14:23:48 | INFO     | app.knowledge.handler | provider=rag.default 检索到 1 个片段
+2026-10-10 14:23:58 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:23:58 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:23:58 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:23:58 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_3ce1ea message_id=1a4199fa-3448-4482-88da-81255f0b63d6 session_id=kb3 type=text
+2026-10-10 14:23:58 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_3ce1ea session_id=kb3
+2026-10-10 14:24:05 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:24:05 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:24:05 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:24:05 | INFO     | app.knowledge.handler | 知识意图=['shipping_policy'] -> provider_ids=['faq.default', 'rag.default']
+2026-10-10 14:24:05 | INFO     | app.knowledge.provider | 向量检索 collection=faq_kb query='满多少钱包邮？偏远地区呢？' 命中=1 scores=[0.2194]
+2026-10-10 14:24:05 | INFO     | app.knowledge.handler | provider=faq.default 检索到 1 个片段
+2026-10-10 14:24:05 | INFO     | app.knowledge.provider | 向量检索 collection=rag_kb query='满多少钱包邮？偏远地区呢？' 命中=0 scores=[]
+2026-10-10 14:24:05 | INFO     | app.knowledge.handler | provider=rag.default 检索到 1 个片段
+2026-10-10 14:24:13 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:24:13 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:24:13 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:24:13 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_3ce1ea message_id=04837dba-ad0b-46f4-b398-9eddfbdc71ae session_id=kb4 type=text
+2026-10-10 14:24:13 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_3ce1ea session_id=kb4
+2026-10-10 14:24:18 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:24:18 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:24:18 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:24:18 | INFO     | app.knowledge.handler | 知识意图=['platform_rule'] -> provider_ids=['rag.default']
+2026-10-10 14:24:18 | INFO     | app.knowledge.provider | 向量检索 collection=rag_kb query='你们的订单状态都有哪些，分别是什么意思？' 命中=2 scores=[0.1817, 0.1766]
+2026-10-10 14:24:18 | INFO     | app.knowledge.handler | provider=rag.default 检索到 2 个片段
+2026-10-10 14:24:30 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:24:30 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:24:30 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:24:30 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_3ce1ea message_id=81c82c82-be4a-43c7-8e4a-6bda25ee4a2e session_id=kb5 type=text
+2026-10-10 14:24:30 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_3ce1ea session_id=kb5
+2026-10-10 14:24:37 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:24:37 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:24:37 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:24:37 | INFO     | app.knowledge.handler | 知识意图=['product_info'] -> provider_ids=['api.product']
+2026-10-10 14:24:37 | INFO     | app.knowledge.handler | provider=api.product 检索到 1 个片段
+2026-10-10 14:24:43 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:24:43 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:24:43 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:24:43 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_flows_3ce1ea message_id=9cc8a023-ba0c-42cd-869a-fe495b004c0a session_id=kb6 type=text
+2026-10-10 14:24:43 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_flows_3ce1ea session_id=kb6
+2026-10-10 14:24:49 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:24:49 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=True
+2026-10-10 14:24:49 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:25:00 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:25:00 | INFO     | app.agent.nodes.execute_chitchat_node | 闲聊轨道执行完成: 1 条消息
+2026-10-10 14:25:00 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:26:31 | INFO     | app.infrastructure.logging_config | 日志已初始化: level=INFO, file=D:\Mycode\langgraph-app\logs\app.log
+2026-10-10 14:26:33 | WARNING  | app.infrastructure.vector_store | Qdrant 服务不可达(Unexpected Response: 502 (Bad Gateway)
+Raw response content:
+b'')，回退本地持久化模式: D:\Mycode\langgraph-app\data\qdrant
+2026-10-10 14:26:33 | INFO     | app.knowledge.seed | 集合 faq_kb 已有 10 条数据，跳过种子写入
+2026-10-10 14:26:33 | INFO     | app.knowledge.seed | 集合 rag_kb 已有 8 条数据，跳过种子写入
+2026-10-10 14:28:34 | INFO     | app.service.dialogue_service | 收到消息 sender_id=smoke_final message_id=24d43229-c37a-420b-a12a-583a207c244c session_id=None type=text
+2026-10-10 14:28:34 | INFO     | app.service.dialogue_service | 创建新对话状态 sender_id=smoke_final session_id=0e701330-bb18-420f-ba14-cd6e58538347
+2026-10-10 14:28:41 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:28:41 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:28:41 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:28:41 | INFO     | app.knowledge.handler | 知识意图=['shipping_policy'] -> provider_ids=['faq.default', 'rag.default']
+2026-10-10 14:28:41 | INFO     | app.knowledge.handler | provider=faq.default 检索到 1 个片段
+2026-10-10 14:28:41 | INFO     | app.knowledge.handler | provider=rag.default 检索到 1 个片段
+2026-10-10 14:28:51 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:28:51 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:28:51 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:39:42 | INFO     | app.infrastructure.logging_config | 日志已初始化: level=INFO, file=D:\Mycode\langgraph-app\logs\app.log
+2026-10-10 14:39:42 | INFO     | app.infrastructure.vector_store | Qdrant 服务连接成功 localhost:6333
+2026-10-10 14:39:42 | INFO     | app.infrastructure.vector_store | 创建向量集合 faq_kb (dim=1024)
+2026-10-10 14:39:48 | INFO     | app.knowledge.seed | 集合 faq_kb 写入 10 条种子数据
+2026-10-10 14:39:48 | INFO     | app.infrastructure.vector_store | 创建向量集合 rag_kb (dim=1024)
+2026-10-10 14:39:53 | INFO     | app.knowledge.seed | 集合 rag_kb 写入 8 条种子数据
+2026-10-10 14:42:23 | INFO     | app.infrastructure.logging_config | 日志已初始化: level=INFO, file=D:\Mycode\langgraph-app\logs\app.log
+2026-10-10 14:42:23 | INFO     | app.infrastructure.vector_store | Qdrant 服务连接成功 localhost:6333
+2026-10-10 14:42:23 | INFO     | app.knowledge.seed | 集合 faq_kb 已有 10 条数据，跳过种子写入
+2026-10-10 14:42:23 | INFO     | app.knowledge.seed | 集合 rag_kb 已有 8 条数据，跳过种子写入
+2026-10-10 14:43:16 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_real_dfc0e5 message_id=7e65103a-1a52-4a88-8fd7-a624cae26f1f session_id=biz_order type=text
+2026-10-10 14:43:16 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_real_dfc0e5 session_id=biz_order
+2026-10-10 14:43:26 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:43:26 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:43:26 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:43:26 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 14:43:26 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 14:43:27 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_real_dfc0e5 message_id=d866a890-9349-49fe-8765-9e1fb9f42de1 session_id=biz_order type=text
+2026-10-10 14:43:27 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_real_dfc0e5 session_id=biz_order
+2026-10-10 14:43:38 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:43:38 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:43:38 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:43:38 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 14:43:38 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 14:43:38 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_real_dfc0e5 message_id=b0e52612-0d1b-4a09-a911-2ab0b7f194de session_id=biz_refund type=text
+2026-10-10 14:43:38 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_real_dfc0e5 session_id=biz_refund
+2026-10-10 14:43:42 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:43:42 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:43:42 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:43:42 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 14:43:42 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 14:43:42 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_real_dfc0e5 message_id=136274dd-e00e-42b4-ade2-d50ede087c22 session_id=biz_refund type=text
+2026-10-10 14:43:42 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_real_dfc0e5 session_id=biz_refund
+2026-10-10 14:43:52 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:43:52 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:43:52 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:43:52 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 1 条消息
+2026-10-10 14:43:52 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:43:52 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_real_dfc0e5 message_id=22b7fa68-ab8a-46f7-a511-6937802883ea session_id=biz_refund type=text
+2026-10-10 14:43:52 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_real_dfc0e5 session_id=biz_refund
+2026-10-10 14:44:03 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:44:03 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:44:03 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:44:03 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 1 条消息
+2026-10-10 14:44:03 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:44:03 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_real_dfc0e5 message_id=3fc10ddc-0db5-4a56-af15-f6bb9cabe8b7 session_id=biz_similar type=text
+2026-10-10 14:44:03 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_real_dfc0e5 session_id=biz_similar
+2026-10-10 14:44:12 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:44:12 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:44:12 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:44:12 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 14:44:12 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 14:44:13 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_real_dfc0e5 message_id=494e59ae-dc24-4116-9c48-45b85a22c347 session_id=biz_human type=text
+2026-10-10 14:44:13 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_real_dfc0e5 session_id=biz_human
+2026-10-10 14:44:19 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:44:19 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:44:19 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:44:19 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 14:44:19 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 14:44:19 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_real_dfc0e5 message_id=02a1e658-95ed-4b35-ac1a-9e1bbac21af4 session_id=kb1 type=text
+2026-10-10 14:44:19 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_real_dfc0e5 session_id=kb1
+2026-10-10 14:44:23 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:44:23 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:44:23 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:44:23 | INFO     | app.knowledge.handler | 知识意图=['refund_policy'] -> provider_ids=['rag.default', 'faq.default']
+2026-10-10 14:44:23 | INFO     | app.knowledge.handler | provider=rag.default 检索到 3 个片段
+2026-10-10 14:44:23 | INFO     | app.knowledge.handler | provider=faq.default 检索到 3 个片段
+2026-10-10 14:44:29 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:44:29 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:44:29 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:44:29 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_real_dfc0e5 message_id=da253ae4-587a-465f-9d0d-b3ed40cd903e session_id=kb2 type=text
+2026-10-10 14:44:29 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_real_dfc0e5 session_id=kb2
+2026-10-10 14:44:34 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:44:34 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:44:34 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:44:34 | INFO     | app.knowledge.handler | 知识意图=['return_policy'] -> provider_ids=['rag.default', 'faq.default']
+2026-10-10 14:44:34 | INFO     | app.knowledge.handler | provider=rag.default 检索到 3 个片段
+2026-10-10 14:44:34 | INFO     | app.knowledge.handler | provider=faq.default 检索到 3 个片段
+2026-10-10 14:44:40 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:44:40 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:44:40 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:44:40 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_real_dfc0e5 message_id=1e09355a-fef9-4d54-a205-967ff22ef97b session_id=kb3 type=text
+2026-10-10 14:44:40 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_real_dfc0e5 session_id=kb3
+2026-10-10 14:44:45 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:44:45 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:44:45 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:44:45 | INFO     | app.knowledge.handler | 知识意图=['shipping_policy'] -> provider_ids=['rag.default', 'faq.default']
+2026-10-10 14:44:45 | INFO     | app.knowledge.handler | provider=rag.default 检索到 3 个片段
+2026-10-10 14:44:46 | INFO     | app.knowledge.handler | provider=faq.default 检索到 3 个片段
+2026-10-10 14:44:51 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:44:51 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:44:51 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:44:51 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_real_dfc0e5 message_id=c0bea041-5c66-4dba-939b-e7b7111ea1fc session_id=kb4 type=text
+2026-10-10 14:44:51 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_real_dfc0e5 session_id=kb4
+2026-10-10 14:44:57 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:44:57 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:44:57 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:44:57 | INFO     | app.knowledge.handler | 知识意图=['platform_rule'] -> provider_ids=['rag.default']
+2026-10-10 14:44:58 | INFO     | app.knowledge.handler | provider=rag.default 检索到 3 个片段
+2026-10-10 14:45:07 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:45:07 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:45:07 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:45:07 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_real_dfc0e5 message_id=a4e96274-8f2c-4d00-ba4a-417284f36c93 session_id=kb5 type=text
+2026-10-10 14:45:07 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_real_dfc0e5 session_id=kb5
+2026-10-10 14:45:13 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:45:13 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:45:13 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:45:13 | INFO     | app.knowledge.handler | 知识意图=['product_info'] -> provider_ids=['api.product']
+2026-10-10 14:45:13 | INFO     | app.knowledge.handler | provider=api.product 检索到 1 个片段
+2026-10-10 14:45:17 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:45:17 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:45:17 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:45:17 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_real_dfc0e5 message_id=58777f7d-bb29-45ad-bbe3-0f8b9ff1a61c session_id=kb6 type=text
+2026-10-10 14:45:17 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_real_dfc0e5 session_id=kb6
+2026-10-10 14:45:23 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:45:23 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:45:23 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:45:23 | INFO     | app.knowledge.handler | 知识意图=['platform_rule'] -> provider_ids=['rag.default']
+2026-10-10 14:45:23 | INFO     | app.knowledge.handler | provider=rag.default 检索到 3 个片段
+2026-10-10 14:45:28 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:45:28 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:45:28 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:45:28 | INFO     | app.service.dialogue_service | 收到消息 sender_id=e2e_real_dfc0e5 message_id=0ee9df3e-26da-46a3-8a7c-18f169625006 session_id=kb7 type=text
+2026-10-10 14:45:28 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=e2e_real_dfc0e5 session_id=kb7
+2026-10-10 14:45:32 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:45:32 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=False chitchat=True
+2026-10-10 14:45:32 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:45:35 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:45:35 | INFO     | app.agent.nodes.execute_chitchat_node | 闲聊轨道执行完成: 1 条消息
+2026-10-10 14:45:35 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
+2026-10-10 14:52:34 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_hrc4plbv message_id=c5ee4309-4978-4974-9a44-83accc69880a session_id=None type=text
+2026-10-10 14:52:34 | INFO     | app.service.dialogue_service | 创建新对话状态 sender_id=u_hrc4plbv session_id=da540697-d08f-49db-989a-8ff5ac74f9a7
+2026-10-10 14:52:46 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:52:46 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=True knowledge=False chitchat=False
+2026-10-10 14:52:46 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:52:46 | INFO     | app.agent.nodes.execute_task_node | 任务轨道执行完成: 2 条消息
+2026-10-10 14:52:46 | INFO     | app.agent.nodes.finalize_node | finalize: 2 条回复消息
+2026-10-10 14:53:25 | INFO     | app.service.dialogue_service | 收到消息 sender_id=u_hrc4plbv message_id=3c44d14d-0b93-4343-b381-ce52ed65fe33 session_id=da540697-d08f-49db-989a-8ff5ac74f9a7 type=text
+2026-10-10 14:53:25 | INFO     | app.service.dialogue_service | 加载已有对话状态 sender_id=u_hrc4plbv session_id=da540697-d08f-49db-989a-8ff5ac74f9a7
+2026-10-10 14:53:30 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:53:30 | INFO     | app.agent.nodes.plan_node | 意图识别成功: task=False knowledge=True chitchat=False
+2026-10-10 14:53:30 | INFO     | app.agent.nodes.validate_node | 计划校验: valid=True reason=None
+2026-10-10 14:53:30 | INFO     | app.knowledge.handler | 知识意图=['shipping_policy'] -> provider_ids=['rag.default', 'faq.default']
+2026-10-10 14:53:30 | INFO     | app.knowledge.handler | provider=rag.default 检索到 3 个片段
+2026-10-10 14:53:31 | INFO     | app.knowledge.handler | provider=faq.default 检索到 3 个片段
+2026-10-10 14:53:39 | INFO     | httpx2 | HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+2026-10-10 14:53:39 | INFO     | app.agent.nodes.execute_knowledge_node | 知识库轨道执行完成: 1 条消息
+2026-10-10 14:53:39 | INFO     | app.agent.nodes.finalize_node | finalize: 1 条回复消息
